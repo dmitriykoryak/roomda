@@ -1,0 +1,15 @@
+public/assets/.DS_Store
+public/.DS_Store
+src/assets/.DS_Store
+src/components/.DS_Store
+src/config/.DS_Store
+src/config/config.js
+src/utils/.DS_Store
+src/.DS_Store
+.DS_Store
+
+# Cordova
+/src-cordova/platforms
+/src-cordova/plugins
+/public/cordova.js
+node_modules
