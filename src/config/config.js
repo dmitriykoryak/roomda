@@ -15,7 +15,7 @@ export default {
     params: {
       required: {
         k: 1,
-        t: 1
+        Authorization: 'Bearer 1'
       },
       list: {
         add: 'count'
