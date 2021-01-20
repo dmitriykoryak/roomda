@@ -4,23 +4,23 @@ module.exports = {
   runtimeCompiler: true,
   publicPath: '/',
   pluginOptions: {
-    cordovaPath: '../cordova/src-cordova'
+    cordovaPath: '../cordova/src-cordova',
   },
   //Не показывать рекомендации во время сборки
   configureWebpack: {
     performance: {
-      hints: false
+      hints: false,
     },
     resolve: {
       // алиас к lib
       alias: {
-        '~~': path.resolve(__dirname, 'src/lib')
-      }
-    }
+        '~~': path.resolve(__dirname, 'src/lib/src'),
+      },
+    },
   },
   pwa: {
-    themeColor: '#FFEC00'
-  }
+    themeColor: '#FFEC00',
+  },
   // devServer: {
   // 	host: '127.2.0.1',
   // 	port: 12080,
